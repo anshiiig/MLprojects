@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):   #whenever a error or exception occurs this msg will will be pushed
     _,_,exc_tb=error_detail.exc_info()  # this varia will give all the info that in which file,line no the error had occured
